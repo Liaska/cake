@@ -1,0 +1,214 @@
+/* core */
+* { margin: 0; padding: 0; outline: none;}
+body {
+    background-color: #fbebea;
+    overflow-wrap: break-word;
+    color: #2d2829;
+}
+a { text-decoration: none;}
+html {scroll-behavior: smooth;}
+
+.container {
+    max-width: 1240px; padding: 0 20px; margin: 0 auto; position: relative;}
+
+/* Fonts */
+@font-face {
+    font-family: 'intro';
+    src: url("/fonts/intro_script_r_h2_base-webfont.woff"),
+    url("/fonts/intro_script_r_h2_base-webfont.woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'playfair';
+    src: url("/fonts/playfairdisplay-bold-webfont.woff"),
+    url("/fonts/playfairdisplay-bold-webfont.woff2");
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'playfairb';
+    src: url("/fonts/playfairdisplay-black-webfont.woff"),
+    url("/fonts/playfairdisplay-black-webfont.woff2");
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'circe';
+    src: url("/fonts/Circe-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'circe';
+    src: url("/fonts/Circe-Bold.woff");
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  /* header */
+  .main__header {
+      background: url("/img/header_cake.png") no-repeat 100% 100%;
+  }
+  .top__header {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 65px;      
+  }
+  .header__menu {
+      display: flex;
+      list-style: none;
+      align-items: flex-end;
+  }
+  
+  .header__menu li {
+      padding-right: 45px;
+      font-family: circe, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 400; 
+  }
+  .header__menu .logo__header {
+      font-size: 23.2px;
+      font-family: playfairb, Arial, sans-serif;
+      font-weight: 800;
+  }
+  
+  .top__header a {
+      max-width: 120px;
+      text-decoration: none;
+      font-family: circe, Arial, sans-serif;
+      font-weight: 800;
+      align-self: flex-end;
+  }
+  .header__about{
+    padding-top: 165px;
+    padding-bottom: 150px;
+  }
+  .header__about h1 {
+    font-size: 78px;
+    line-height: 70px;
+    max-width: 360px;
+    font-family: playfair, Arial, sans-serif;
+    padding-bottom: 30px;
+  }
+  
+  .header__about p {
+    font-size: 41px;
+    line-height: 78px;
+    font-family: intro, Arial, sans-serif;
+    padding-bottom: 60px;
+  }
+  .header__about a {
+    font-size: 13px;
+    line-height: 27px;
+    font-family: circe, Arial, sans-serif;
+    color: white;
+    padding: 20px 65px;
+    background-color: #f50049;
+    border-radius: 50px;
+    text-transform: uppercase;
+  }
+
+  .header__special {
+    display: flex;  
+    padding-bottom: 240px;
+    position: relative;
+  }
+
+  .special__image {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: circe, Arial, sans-serif;
+  }
+  .special__image img {
+    padding-right: 10px;
+  }
+
+  .image__1 {
+    max-width: 155px;
+    padding-right: 70px;
+  }
+
+  .image__2 {
+    max-width: 250px;
+  }
+
+  .header__special::before {
+    content:"Наши торты";
+    position: absolute;
+    bottom:0;
+    left:20px;
+    font-size: 40px;
+    line-height: 66px;
+    font-family: playfair, Arial,sans-serif;
+  }
+
+   /* MENU START HERE*/
+  .main__menu {
+    padding-top:45px;
+
+  }
+  .first__grid {
+    display: grid;
+    grid-template-rows: 305px 305px;
+    grid-template-columns: 700px 485px;
+    grid-row-gap: 45px;
+    grid-column-gap: 40px;
+  }
+  .classic_cake {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: url("/img/Classic_cake.jpg") no-repeat 50% /cover;
+  }
+  .muss_cake {
+    background: url("/img/muss_cake.jpg") no-repeat 50% /cover;
+  }
+  .wedding_cake {
+    background: url("/img/wedding_cake.jpg") no-repeat 50% /cover;
+  }
+
+  .second__grid {
+    padding-top: 45px;
+    padding-bottom: 110px;
+    display: grid;
+    grid-template-rows: 305px 305px;
+    grid-template-columns: 485px 700px ;
+    grid-row-gap: 45px;
+    grid-column-gap: 40px;
+  }
+  .kid_cake {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 2 / 3;
+    background: url("/img/kid_cake.jpg") no-repeat 50% /cover;
+  }
+
+  .man_cake {
+    background: url("/img/man_cake.jpg") no-repeat 50% /cover;
+  }
+  .woman_cake {
+    background: url("/img/woman_cake.jpg") no-repeat 50% /cover;
+  }
+  .cake {
+    box-shadow: 0 0 10px 5px #f7e0e2;
+  }
+  
+  .text_three_steps {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .text_three_steps h2 {
+    font-size: 40px;
+    line-height: 66px;
+    font-family: playfair, Arial, sans-serif;
+  } 
+  .text_three_steps p {
+    font-size: 35px;
+    font-family: intro, Arial, sans-serif;
+  }
