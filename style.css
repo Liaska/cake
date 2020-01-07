@@ -69,7 +69,8 @@ html {scroll-behavior: smooth;}
       padding-right: 45px;
       font-family: circe, Arial, sans-serif;
       font-size: 13px;
-      font-weight: 400; 
+      font-weight: 600; 
+      text-transform: uppercase;
   }
   .header__menu .logo__header {
       font-size: 23.2px;
@@ -102,7 +103,7 @@ html {scroll-behavior: smooth;}
     font-family: intro, Arial, sans-serif;
     padding-bottom: 60px;
   }
-  .header__about a {
+  .button_a{
     font-size: 13px;
     line-height: 27px;
     font-family: circe, Arial, sans-serif;
@@ -126,6 +127,7 @@ html {scroll-behavior: smooth;}
     line-height: 18px;
     font-family: circe, Arial, sans-serif;
   }
+
   .special__image img {
     padding-right: 10px;
   }
@@ -151,24 +153,27 @@ html {scroll-behavior: smooth;}
 
    /* MENU START HERE*/
   .main__menu {
-    padding-top:45px;
-
+    padding-top: 45px;
   }
+
   .first__grid {
     display: grid;
     grid-template-rows: 305px 305px;
-    grid-template-columns: 700px 485px;
+    grid-template-columns: 56.45% 39.1%;
     grid-row-gap: 45px;
     grid-column-gap: 40px;
   }
+
   .classic_cake {
     grid-row-start: 1;
     grid-row-end: 3;
     background: url("./img/Classic_cake.jpg") no-repeat 50% /cover;
   }
+
   .muss_cake {
     background: url("./img/muss_cake.jpg") no-repeat 50% /cover;
   }
+
   .wedding_cake {
     background: url("./img/wedding_cake.jpg") no-repeat 50% /cover;
   }
@@ -178,27 +183,32 @@ html {scroll-behavior: smooth;}
     padding-bottom: 110px;
     display: grid;
     grid-template-rows: 305px 305px;
-    grid-template-columns: 485px 700px ;
+    grid-template-columns: 39.1% 56.45% ;
     grid-row-gap: 45px;
     grid-column-gap: 40px;
   }
+
   .kid_cake {
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column: 2 / 3;
-    background: url("./img/kid_cake.jpg") no-repeat 50% /cover;
+    background: url("./img/kid_cake.jpg") no-repeat 50%;
+    background-size: initial;
   }
 
   .man_cake {
     background: url("./img/man_cake.jpg") no-repeat 50% /cover;
   }
+
   .woman_cake {
     background: url("./img/woman_cake.jpg") no-repeat 50% /cover;
   }
+
   .cake {
     box-shadow: 0 0 10px 5px #f7e0e2;
     position: relative;
   }
+
   .cake::after {
     font-family: FontAwesome;
     position: absolute;
@@ -212,31 +222,249 @@ html {scroll-behavior: smooth;}
     text-align: center;
     padding-bottom: 50px;
   }
+
   .text_three_steps h2 {
     font-size: 40px;
     line-height: 66px;
     font-family: playfair, Arial, sans-serif;
   } 
+
   .text_three_steps p {
     font-size: 35px;
     font-family: intro, Arial, sans-serif;
   }
-<<<<<<< HEAD
+
   /* text and buttons */
   .classic_about {
     padding-left: 45px;
     padding-top: 40px;
   }
+
   .classic_about h3 {
     font-size: 24px;
     line-height: 30px;
     font-family: circe, Arial, sans-serif;
     font-weight: 400;
   }
+
   .classic_about p {
     font-size: 20px;
     font-family: circe, Arial, sans-serif;
     color: #828080;
   }
-=======
->>>>>>> 37e0287b397d2b378aeecd206bf0ea6e2d4d967c
+  
+  /* about CHOICE */
+
+  .cake_describe {
+    background-color: white;
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+
+  .cake__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .cake__info::after {
+    font-family: FontAwesome;
+    position: absolute;
+    top:50%;
+    right: 0px;
+    transform: translateX(-50%);
+    content: "\f054";
+    color: #f17d91;
+    font-size: 15px;
+  }
+
+  .cake__info::before {
+    font-family: FontAwesome;
+    position: absolute;
+    top:50%;
+    left: 0px;
+    transform: translateX(-50%);
+    content: "\f053";
+    color: #f17d91;
+
+  }
+
+  .cake__info__image {
+    max-width: 345px;
+    padding-right:40px;
+  }
+
+  .cake__info__text {
+    max-width: 270px;
+  }
+
+  .cake__info__text h2 {
+    color: #2f2f2f;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: circe, Arial, sans-serif;
+  }
+
+  .cake__info__text p {
+    color: #2f2f2f;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: circe, Arial, sans-serif;
+  }
+
+  .cake__info__text h3 {
+    color: #2f2f2f;
+    font-size: 22px;
+    padding-top: 18px;
+    padding-bottom: 50px;
+    font-family: playfair, Arial, sans-serif;
+  }
+
+  .count {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: #838383;
+    font-size: 18px;
+    font-family: circe, Arial, sans-serif;
+  }
+
+  .cake__size__inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .cake__filling__about {
+    position: absolute;
+    top:75px;
+    left:85px;
+    color: #f50049;
+  }
+
+  .cake__filling__about h3 {
+    font-size: 64.25px;
+    line-height: 0;
+    line-height: 32px;
+    padding-bottom: 20px;
+    font-family: playfair;
+  }
+  .cake__filling__about p {
+    font-size: 27px;
+    font-family: playfair;
+  }
+
+
+
+
+
+  .circle {
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 17px;
+    color: #2f2f2f;
+    font-family: circe;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    position: relative;
+    }
+    
+    .size__about {
+      position: absolute;
+      top:75px;
+      left:85px;
+      color: #f50049;
+    }
+
+    .size__about h3 {
+      font-size: 64.25px;
+      line-height: 32px;
+      padding-bottom: 20px;
+      font-family: playfairb;
+    }
+    .size__about p {
+      font-size: 27px;
+      font-family: playfair;
+    }
+
+    .circle figure {
+      padding-right: 70px;
+    }
+
+    .circle figure:last-child {
+      padding-right: 0;
+    }
+
+   .circle_1 {
+    padding: 40px;
+    border: 6px dotted #2d2829;
+    border-radius: 50%;
+   }
+   .circle_2 {
+    padding: 60px;
+    border: 6px dotted #2d2829;
+    border-radius: 50%;
+   }
+
+   .circle_3 {
+     position: relative;
+     padding: 75px;
+     border: 6px dotted #2d2829;
+     border-radius: 50%;
+   }
+   .circle_3_inner {
+     position: absolute;
+     left:22px;
+     top:22px;
+     right: 22px;
+     bottom: 22px;
+     border: 5px dotted #2d2829;
+     border-radius: 50%;
+   }
+   
+   .circle_4 {
+    position: relative;
+    padding: 90px;
+    border: 6px dotted #2d2829;
+    border-radius: 50%;
+   }
+
+   .circle_4::before {
+    content: "";
+    position: absolute;
+    left:26px;
+     top:26px;
+     right: 26px;
+     bottom: 26px;
+     border: 5px dotted #2d2829;
+     border-radius: 50%;
+   }
+
+   .circle_4::after {
+    content: "";
+    position: absolute;
+    left:47px;
+    top:47px;
+    right: 47px;
+    bottom: 47px;
+    border: 4px dotted #2d2829;
+    border-radius: 50%;
+   }
+
+   .circle__about {
+     padding-top: 35px;
+     font-size: 18px;
+     line-height: 30px;
+     font-family: circe;
+     color:#828080;
+   }
