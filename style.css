@@ -197,6 +197,15 @@ html {scroll-behavior: smooth;}
   }
   .cake {
     box-shadow: 0 0 10px 5px #f7e0e2;
+    position: relative;
+  }
+  .cake::after {
+    font-family: FontAwesome;
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    content: "\f30b";
+    color: #828080;
   }
   
   .text_three_steps {
@@ -211,4 +220,20 @@ html {scroll-behavior: smooth;}
   .text_three_steps p {
     font-size: 35px;
     font-family: intro, Arial, sans-serif;
+  }
+  /* text and buttons */
+  .classic_about {
+    padding-left: 45px;
+    padding-top: 40px;
+  }
+  .classic_about h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: circe, Arial, sans-serif;
+    font-weight: 400;
+  }
+  .classic_about p {
+    font-size: 20px;
+    font-family: circe, Arial, sans-serif;
+    color: #828080;
   }
