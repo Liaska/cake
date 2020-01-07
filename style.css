@@ -126,6 +126,7 @@ html {scroll-behavior: smooth;}
     line-height: 18px;
     font-family: circe, Arial, sans-serif;
   }
+
   .special__image img {
     padding-right: 10px;
   }
@@ -152,8 +153,8 @@ html {scroll-behavior: smooth;}
    /* MENU START HERE*/
   .main__menu {
     padding-top:45px;
-
   }
+
   .first__grid {
     display: grid;
     grid-template-rows: 305px 305px;
@@ -161,14 +162,17 @@ html {scroll-behavior: smooth;}
     grid-row-gap: 45px;
     grid-column-gap: 40px;
   }
+
   .classic_cake {
     grid-row-start: 1;
     grid-row-end: 3;
     background: url("./img/Classic_cake.jpg") no-repeat 50% /cover;
   }
+
   .muss_cake {
     background: url("./img/muss_cake.jpg") no-repeat 50% /cover;
   }
+
   .wedding_cake {
     background: url("./img/wedding_cake.jpg") no-repeat 50% /cover;
   }
@@ -182,6 +186,7 @@ html {scroll-behavior: smooth;}
     grid-row-gap: 45px;
     grid-column-gap: 40px;
   }
+
   .kid_cake {
     grid-row-start: 1;
     grid-row-end: 3;
@@ -192,13 +197,16 @@ html {scroll-behavior: smooth;}
   .man_cake {
     background: url("./img/man_cake.jpg") no-repeat 50% /cover;
   }
+
   .woman_cake {
     background: url("./img/woman_cake.jpg") no-repeat 50% /cover;
   }
+
   .cake {
     box-shadow: 0 0 10px 5px #f7e0e2;
     position: relative;
   }
+
   .cake::after {
     font-family: FontAwesome;
     position: absolute;
@@ -212,31 +220,33 @@ html {scroll-behavior: smooth;}
     text-align: center;
     padding-bottom: 50px;
   }
+
   .text_three_steps h2 {
     font-size: 40px;
     line-height: 66px;
     font-family: playfair, Arial, sans-serif;
   } 
+
   .text_three_steps p {
     font-size: 35px;
     font-family: intro, Arial, sans-serif;
   }
-<<<<<<< HEAD
+
   /* text and buttons */
   .classic_about {
     padding-left: 45px;
     padding-top: 40px;
   }
+
   .classic_about h3 {
     font-size: 24px;
     line-height: 30px;
     font-family: circe, Arial, sans-serif;
     font-weight: 400;
   }
+  
   .classic_about p {
     font-size: 20px;
     font-family: circe, Arial, sans-serif;
     color: #828080;
   }
-=======
->>>>>>> 37e0287b397d2b378aeecd206bf0ea6e2d4d967c
