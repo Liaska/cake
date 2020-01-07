@@ -221,6 +221,7 @@ html {scroll-behavior: smooth;}
     font-size: 35px;
     font-family: intro, Arial, sans-serif;
   }
+<<<<<<< HEAD
   /* text and buttons */
   .classic_about {
     padding-left: 45px;
@@ -237,3 +238,5 @@ html {scroll-behavior: smooth;}
     font-family: circe, Arial, sans-serif;
     color: #828080;
   }
+=======
+>>>>>>> 37e0287b397d2b378aeecd206bf0ea6e2d4d967c
