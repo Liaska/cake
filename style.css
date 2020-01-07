@@ -14,45 +14,45 @@ html {scroll-behavior: smooth;}
 /* Fonts */
 @font-face {
     font-family: 'intro';
-    src: url("./fonts/intro_script_r_h2_base-webfont.woff"),
-    url("./fonts/intro_script_r_h2_base-webfont.woff2");
+    src: url("fonts/intro_script_r_h2_base-webfont.woff"),
+    url("fonts/intro_script_r_h2_base-webfont.woff2");
     font-weight: 400;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'playfair';
-    src: url("./fonts/playfairdisplay-bold-webfont.woff"),
-    url("./fonts/playfairdisplay-bold-webfont.woff2");
+    src: url("fonts/playfairdisplay-bold-webfont.woff"),
+    url("fonts/playfairdisplay-bold-webfont.woff2");
     font-weight: 800;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'playfairb';
-    src: url("./fonts/playfairdisplay-black-webfont.woff"),
-    url("./fonts/playfairdisplay-black-webfont.woff2");
+    src: url("fonts/playfairdisplay-black-webfont.woff"),
+    url("fonts/playfairdisplay-black-webfont.woff2");
     font-weight: 800;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'circe';
-    src: url("./fonts/Circe-Regular.woff");
+    src: url("fonts/Circe-Regular.woff");
     font-weight: 400;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'circe';
-    src: url("./fonts/Circe-Bold.woff");
+    src: url("fonts/Circe-Bold.woff");
     font-weight: 800;
     font-style: normal;
   }
 
   /* header */
   .main__header {
-      background: url("./img/header_cake.png") no-repeat 100% 100%;
+      background: url("img/header_cake.png") no-repeat 100% 100%;
   }
   .top__header {
       display: flex;
@@ -164,13 +164,13 @@ html {scroll-behavior: smooth;}
   .classic_cake {
     grid-row-start: 1;
     grid-row-end: 3;
-    background: url("./img/Classic_cake.jpg") no-repeat 50% /cover;
+    background: url("img/Classic_cake.jpg") no-repeat 50% /cover;
   }
   .muss_cake {
-    background: url("./img/muss_cake.jpg") no-repeat 50% /cover;
+    background: url("img/muss_cake.jpg") no-repeat 50% /cover;
   }
   .wedding_cake {
-    background: url("./img/wedding_cake.jpg") no-repeat 50% /cover;
+    background: url("img/wedding_cake.jpg") no-repeat 50% /cover;
   }
 
   .second__grid {
@@ -186,14 +186,14 @@ html {scroll-behavior: smooth;}
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column: 2 / 3;
-    background: url("./img/kid_cake.jpg") no-repeat 50% /cover;
+    background: url("img/kid_cake.jpg") no-repeat 50% /cover;
   }
 
   .man_cake {
-    background: url("./img/man_cake.jpg") no-repeat 50% /cover;
+    background: url("img/man_cake.jpg") no-repeat 50% /cover;
   }
   .woman_cake {
-    background: url("./img/woman_cake.jpg") no-repeat 50% /cover;
+    background: url("img/woman_cake.jpg") no-repeat 50% /cover;
   }
   .cake {
     box-shadow: 0 0 10px 5px #f7e0e2;
