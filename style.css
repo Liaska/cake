@@ -473,3 +473,219 @@ html {scroll-behavior: smooth;}
      font-family: circe;
      color:#828080;
    }
+
+   .decor {
+    background: url("./img/aside_cake.png") no-repeat 50px 210px;
+     background-color: white;
+     padding-top: 60px;
+     padding-bottom: 70px;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+   }
+   
+   .decore__choise {
+     max-width: 860px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 430px;
+     margin-right: 7.1%;
+     position: relative;
+     margin-bottom: 65px;
+   }
+
+
+   .decore__choise::after {
+    font-family: FontAwesome;
+    position: absolute;
+    top:50%;
+    right: 0px;
+    transform: translateX(-50%);
+    content: "\f054";
+    color: #f17d91;
+    font-size: 15px;
+  }
+
+  .decore__choise::before {
+    font-family: FontAwesome;
+    position: absolute;
+    top:50%;
+    left: 0px;
+    transform: translateX(-50%);
+    content: "\f053";
+    color: #f17d91;
+  }
+
+  .decor_count {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #838383;
+    font-family: circe, Arial, sans-serif;
+    font-size: 18px;
+  }
+
+   .decor__first {
+     background: url("./img/fruit_cake.jpg") no-repeat 50% /cover;
+     max-width: 320px;
+     width: 100%;
+     height: 100%;
+     margin-right: 50px;
+   }
+
+   .decor__second {
+     background: url("./img/marshm_cake.jpg") no-repeat 50% /cover;
+     max-width: 320px;
+     width: 100%;
+     height: 100%;
+   }
+   
+   .decor__decor {
+     text-align: center;
+     vertical-align: bottom;
+     padding-bottom: 30px;
+     padding-top: 345px;
+     box-shadow: 0px 7px 13px 0 rgba(0,0,0, 0.2);
+   }
+
+   .decor__decor p{
+    font-size: 20px;
+    font-family: circe, Arial, sans-serif;
+   }
+
+   .decor__decor h2 {
+    font-size: 22px;
+    font-family: playfair, Arial, sans-serif;
+   }
+
+   .your__choise {
+      color: #2d2829;
+      font-size: 27px;
+      font-family: playfair;
+      align-self: flex-start;
+      margin: 0 75px;
+      max-width: 1060px;
+      width: 100%;
+   }
+   .selectors__choise {
+     display: flex;
+   }
+
+   .selectors__choise p {
+      font-size: 27px;
+      line-height: 50px;
+      color: #f50049;
+      font-family: intro, arial, sans-serif;
+   }
+
+   .selectors__choise div {
+     margin-right: 80px;
+   }
+
+   .filling {
+     max-width: 250px;
+     width: 100%;
+     font-size: 18px;
+     font-family: circe, Arial, sans-serif;
+   }
+
+   .size {
+    max-width: 140px;
+    width: 100%;
+   }
+
+   .decoration.selector__par {
+    max-width: 250px;
+    width: 100%;
+    margin-right: 25px;
+   }
+
+   .selector__par {
+     border:none;
+
+     
+   }
+
+   .selector__par select {
+     border: none;
+     font-size: 18px;
+     font-family: circe, Arial, sans-serif;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+      appearance: none;
+   }
+
+   .button_a.buy {
+     align-self: flex-end;
+     padding: 18px 65px;
+     font-weight: 400;
+     font-weight: 13px;
+     font-size: 13px;
+
+   }
+
+
+   /* SELECTS - CUSTOME */
+
+   .select {
+    position: relative;
+    max-width: 250px;
+    width: 100%;
+  }
+ 
+  .select.is-active .select__body {
+    display: block;
+  }
+
+  .select__header {
+    padding: 5px 0 5px 5px;
+    border-bottom: 2px solid #c1b0af;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .select__current {
+    font-size: 18px;
+    font-family: circe, Arial, sans-serif;
+  }
+  .select__icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1%;
+    box-sizing: border-box;
+  }
+  
+  .select__body {
+    background-color: white;
+    border-left: 2px solid rgba(158, 55, 50, 0.2);
+    border-right: 2px solid rgba(158, 55, 50, 0.2);
+    border-top: 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .select__item {
+    padding: 5px 0 5px 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: circe, Arial, sans-serif;
+    width: 100%;
+    border-bottom: 2px solid rgba(158, 55, 50, 0.2);
+    box-sizing: border-box;
+  }
+  
+  .select__item:hover {
+    background-color:  rgba(245,0,73,0.5);
+    border-bottom: 4px solid #c1b0af;
+    box-sizing: border-box;
+  }
