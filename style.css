@@ -72,6 +72,11 @@ html {scroll-behavior: smooth;}
       font-weight: 600; 
       text-transform: uppercase;
   }
+  
+  .header__menu li:first-child {
+      text-transform: none;
+  }
+
   .header__menu .logo__header {
       font-size: 23.2px;
       font-family: playfairb, Arial, sans-serif;
