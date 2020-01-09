@@ -50,6 +50,13 @@ html {scroll-behavior: smooth;}
     font-style: normal;
   }
 
+  @font-face {
+    font-family: "myriad";
+    src: url("./fonts/MyriadPro-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+
   /* header */
   .main__header {
       background: url("./img/header_cake.png") no-repeat 100% 100%;
@@ -166,7 +173,7 @@ html {scroll-behavior: smooth;}
     grid-template-rows: 305px 305px;
     grid-template-columns: 56.45% 39.1%;
     grid-row-gap: 45px;
-    grid-column-gap: 40px;
+    grid-column-gap: 4.45%;
   }
 
   .classic_cake {
@@ -190,7 +197,7 @@ html {scroll-behavior: smooth;}
     grid-template-rows: 305px 305px;
     grid-template-columns: 39.1% 56.45% ;
     grid-row-gap: 45px;
-    grid-column-gap: 40px;
+    grid-column-gap: 4.45%;
   }
 
   .kid_cake {
@@ -572,6 +579,9 @@ html {scroll-behavior: smooth;}
    }
    .selectors__choise {
      display: flex;
+     flex-wrap: wrap;
+     padding-bottom: 5px;
+     flex-direction: row;
    }
 
    .selectors__choise p {
@@ -605,9 +615,8 @@ html {scroll-behavior: smooth;}
 
    .selector__par {
      border:none;
-
-     
    }
+
 
    .selector__par select {
      border: none;
@@ -620,6 +629,7 @@ html {scroll-behavior: smooth;}
 
    .button_a.buy {
      align-self: flex-end;
+     margin-top: 15px;
      padding: 18px 65px;
      font-weight: 400;
      font-weight: 13px;
@@ -688,4 +698,106 @@ html {scroll-behavior: smooth;}
     background-color:  rgba(245,0,73,0.5);
     border-bottom: 4px solid #c1b0af;
     box-sizing: border-box;
+  }
+
+
+  /* REVIEW */
+.review {
+  position: relative;
+  background: url('./img/banner.png') no-repeat 0 0 /contain;
+}
+
+  .review__inner{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review_h2 {
+    font-size: 40px;
+    font-family: playfair, arial, sans-serif;
+    padding-top: 115px;
+    padding-bottom: 65px;
+  }
+
+  .reviews__list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 850px;
+    width: 100%;
+    margin-bottom: 180px;
+  }
+
+  .review__image {
+    max-width: 210px;
+    padding-right:40px;
+  }
+
+  .review__image img {
+    border-radius: 50%;
+  }
+
+  .review__text {
+    position: relative;
+    max-width: 350px;
+    text-align: start;
+  }
+
+  .review__text h2 {
+    font-size: 24px;
+    font-family: circe, arial, sans-serif;
+  }
+
+  .review__text p {
+    font-size: 20px;
+    font-family: circe, arial, sans-serif;
+  }
+  .review__text p:last-child {
+    width: 100%;
+    font-size: 18.4px;
+    line-height: 24.56px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: myriad, arial, sans-serif;
+  }
+  .review__text i {
+    color: #f17d91;
+    font-size: 16px;
+    font-family: myriad, arial, sans-serif;
+    text-decoration: underline;
+    font-weight: 300;
+  }
+
+  .count__review {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: #f17d91;
+    font-size: 18px;
+    font-family: circe, Arial, sans-serif;
+  }
+
+  .reviews__list::after {
+    font-family: FontAwesome;
+    position: absolute;
+    top:50%;
+    right: 0px;
+    transform: translateX(-50%);
+    content: "\f054";
+    color: #f17d91;
+    font-size: 15px;
+  }
+
+  .reviews__list::before {
+    font-family: FontAwesome;
+    position: absolute;
+    top:50%;
+    left: 0px;
+    transform: translateX(-50%);
+    content: "\f053";
+    color: #f17d91;
+
   }
