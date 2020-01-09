@@ -799,5 +799,8 @@ html {scroll-behavior: smooth;}
     transform: translateX(-50%);
     content: "\f053";
     color: #f17d91;
-
   }
+
+.select__body {
+  z-index: 2;  
+}
