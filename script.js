@@ -35,7 +35,7 @@ $(document).mouseup(function(e)
     }
 
     if (selectItems.is(e.target)){
-        $(".select__item").hide();    
+        $(".select__body").hide();    
     }
 
 });
