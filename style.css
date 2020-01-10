@@ -804,3 +804,10 @@ html {scroll-behavior: smooth;}
 .select__body {
   z-index: 2;  
 }
+
+  /* hover элементы */
+
+  .button_a:hover,   .button_a:focus,   .button_a:active {
+    box-shadow: 0px 4px 16px 0 #ff0043;
+    background-color: #ff235a;
+  }
